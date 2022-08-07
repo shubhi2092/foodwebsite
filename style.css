@@ -5,6 +5,100 @@
     padding:0px;
    
 }
+#new-home
+{
+    background-image: url('newhomebg.jpg');
+    width:99vw;
+    height:105vh;
+    
+}
+.homeflex
+{
+    display:flex;
+}
+#img1
+{
+    position:relative;
+    top:1vh;
+    left:10vw;
+    width:20vw;
+    height:30vh;
+}
+#img2
+{
+    position:relative;
+    top:25vh;
+    left:-16vw;
+    width:13vw;
+    height:25vh;
+}
+#img3
+{
+    position:relative; 
+    top:-1vh;
+    left:13vw;
+    width:20vw;
+    height:30vh;
+}
+
+#img4
+{
+    position: relative;
+    top:4vh;
+    left:27vw;
+    width:15vw;
+    height:35vh;
+}
+#img5
+{
+    position: relative;
+    top:32vh;
+    left:27vw;
+    width:15vw;
+    height:35vh;
+}
+#img6
+{
+    position: relative;
+    top:60vh;
+    left:-3.8vw;
+    width:15vw;
+    height:35vh;
+}
+.bake
+{
+    position: relative;
+    top:34vh;
+    left:10vw;
+    width:5vw;
+    height: 5vh;
+   font-size: xx-large;
+}
+#al
+{
+    width: 145px;
+    height: 51px;
+    padding-left: 52px;
+}
+.circle
+{
+  width:200px;
+  height:200px;
+  background: linear-gradient(rgb(245, 84, 73),rgb(250, 202, 194));
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+  position:relative;
+  left:15vw;
+  top:-10vh;
+
+}
+.align
+{
+  padding-top:55px;
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+}
 
 #navbar
 {
@@ -14,7 +108,27 @@
     position: relative;
     top: 20px;
 }
-
+.foodq
+{
+    width:200px;
+    height:200px;
+    position:relative;
+    left:43vw;
+    top:-24vh;
+}
+.neonText {
+    color: rgb(0, 0, 0) !important;
+    font-family: cursive;
+    text-shadow:
+      0 0 7px rgb(250, 189, 154),
+      0 0 10px rgb(255, 172, 133),
+      0 0 21px rgb(255, 172, 133),
+      0 0 42px rgb(255, 172, 133),
+      0 0 82px rgb(242, 175, 137),
+      0 0 92px rgba(248, 165, 126, 0.881),
+      0 0 102px rgb(241, 189, 116),
+      0 0 151px rgb(237, 177, 140) !important;
+  }
 #logo
 {
     margin:0px;
@@ -67,12 +181,14 @@
     
     display: flex;
     flex-direction: column;
-    padding:0px 200px;
+    padding:0px 250px;
     margin:0px;
     align-items: center;
     justify-content: center;
     height: 475px;
     color:white;
+    position: relative;
+    top:13vh;
 }
 #home{
     margin-top:0px;
@@ -373,4 +489,11 @@ img
 {
     color: red ! important ;
     font-style: italic;
+}
+
+#cart
+{
+    position:relative;
+    left:40vw;
+    
 }

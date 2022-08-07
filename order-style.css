@@ -1,28 +1,49 @@
 
+.background
+{
+    background-image: url('menu2.webp');
+    background-size: cover;
+}
 .card-styling
 {
-    display: grid;
-    row-gap: 50px;
-    grid-template-columns: repeat(auto-fill,300px);
-    background-image: url('img-1.jpg');
-    padding: 10px;
-    margin: 0 auto;
-
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    padding-left: 210px;
    
 }
-.card{
-    padding:10px;
-    margin: 10px;
-    width:100%;
-    height:100%;
-    border-radius: 50px !important;
+#description
+{
+    display: inline-block;
+}
+.foodimg{
+    
+   width:8vw;
+   height:15vh;
+   border-radius: 25px;
+
 }
 .h-primary
 {
+    position:relative;
+    top:7vh;
+    left:-27vw;
     font-size: 2.4rem;
     font-weight: 700;
     padding:12px;
-    background-color: #FFC300
+    color: #161615;
+    font-family: 'Caveat', cursive;
+    
+}
+.hsec
+{
+position:relative;
+top:-20vh;
+left:55vw;
+font-size: 1.3rem;
+width:300px;
+font-family: 'Caveat', cursive;
+font-weight: 700;
 }
 .center
 {
@@ -52,20 +73,32 @@
 .card-title
 {
     border: none;
+
     background: transparent;
 }
 .confirmation-form
 {
     border: 0.5px solid rgb(167, 161, 161);
+    background: linear-gradient(rgb(172, 212, 255),white);
     border-radius: 10px;
     width: 441px;
-    height: 637px;
+    height: 420px;
     margin: 35px;
     padding: 14px;
-    position: absolute;
+    position: relative;
     top: 1px;
-    left: 450px;
+    left: 370px;
    
+}
+.confirmationbg
+{
+  background: linear-gradient(rgb(247, 124, 144) ,pink,rgb(249, 213, 213));
+  width:100vw;
+  height:100vh;
+}
+#confirmheading
+{
+  font-family: 'Caveat', cursive;
 }
 .form-container
 {
@@ -77,14 +110,161 @@
     color: red ! important ;
     font-style: italic;
 }
-body
+
+.flex
 {
-    background-color: rgb(199, 241, 241);
+    display: flex;
+    position: relative;
+    top: -10px;
 }
-.foodimg
+.flex1
 {
-    height: 300px;
-    width:auto;
-    object-fit: cover;
-    border-radius: 30px;
+    position:relative;
+    top:2vh;
+}
+.input
+
+{ 
+   
+     border: none !important;
+    background-color: transparent !important;
+    resize: none !important;
+    outline: none !important;
+
+
+}
+.menubg
+{
+    background-size: contain;
+    height:100vh;
+    background:
+    linear-gradient(
+      45deg, transparent 33.333%,
+      rgb(236, 157, 157) 33.333%, rgb(240, 188, 188) 66.667%,
+      transparent 66.667%
+    ),
+    linear-gradient(
+      -45deg, transparent 33.333%,
+      #222 33.333%, #222 66.667%,
+      transparent 66.667%
+    );
+}
+
+#inputstyle
+{
+    width:80px;
+    padding-left: 32px;
+    border-radius: 5px;
+    border: 1px solid black;
+   background-color: rgb(245, 247, 141);
+}
+#col1
+{
+    max-width: 90px;
+}
+.cardclass
+{
+    border-radius: 30px !important;
+    background: linear-gradient(135deg, rgb(244, 242, 239) 60%, rgb(241, 202, 183));
+}
+
+.dropbtn {
+    
+   
+    padding: -7px;
+    font-size: 15px;
+    overflow: hidden; 
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    top: -20px;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  #flexcart
+  {
+    display:flex !important;
+  }
+  .submit
+  {
+     position:relative;
+     top:-22vh;
+     left:22vw;
+  }
+  .size
+  {
+    position:relative;
+    top:20px;
+   
+  }
+  .center
+  {
+    padding: 24px 0;
+  }
+  #priceinput
+  {
+    position:relative;
+    top:-3vh;
+  }
+  .dot{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(194, 6, 6);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left:64vw;
+    top:-43vh;   
+  }
+  .neon{
+    position: relative;
+    left: 40.5vw;
+    top: -31vh;
+  }
+  .neon2
+  {
+    
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+  }
+  .place
+  {
+    width:270px;
+    height:250px;
+  }
+#red
+{
+    color: red;
+}
+.menuheading
+{
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding:12px;
+    color: #161615;
+    font-family: 'Caveat', cursive;
 }

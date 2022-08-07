@@ -1,0 +1,62 @@
+.container
+{
+    display:flex;
+    padding:0px;
+    position:relative;
+    top:-4vh;
+}
+.bg
+{
+    background: linear-gradient(135deg, rgb(250, 168, 168) 60%, rgb(250, 209, 203));
+    width:85vw;
+    height:85vh;
+    position: relative;
+    top:7vh;
+    left:8vw;
+}
+.inputsize
+{
+
+    width:130px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    
+}
+body
+{
+    background-image: url('cartbg.webp');
+    background-size: contain;
+   
+}
+.mycartheading
+{
+    text-align: center;
+
+}
+.cart-items
+{
+    position:relative;
+    left:11vw;
+}
+table{
+    width:90%;
+}
+.delivery-details
+{
+   position: relative;
+   left:-3vw;
+}
+.checkout-page
+{
+    display: flex;
+    position: relative;
+    left:40vh;
+}
+#checkout{
+    padding-left:4px;
+}
+#display{
+    display:flex;
+}
