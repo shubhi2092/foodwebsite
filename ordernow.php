@@ -50,7 +50,7 @@ function foodItem($title,$price,$url,$desc,$Id){
     while($row=mysqli_fetch_array($query,MYSQLI_ASSOC))
     {
       
-      foodItem($row['title'],$row['price'],$row['img'],$row['description'],$row['Id']);
+      foodItem($row['title'],$row['price'],$row['img'],$row['description'],$row['Id']); 
 
     }
 ?>
